@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+body .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .menu div {
+  margin: 20px;
+}
+body .menu div button {
+  padding: 10px;
+}
 body .main-1 {
   display: flex;
   justify-content: center;
