@@ -4,14 +4,23 @@
   box-sizing: border-box;
 }
 
+body .button {
+  margin: 20px;
+}
+body .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
 body .menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 20vh;
 }
 body .menu div {
-  margin: 20px;
+  margin: 0px 20px;
 }
 body .menu div button {
   padding: 10px;
